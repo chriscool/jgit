@@ -305,7 +305,9 @@ saves space.
 If the file is unaligned and contains more than one ref block, the ref
 index must be written.
 
-Index block format:
+### Index block format
+
+An index block is written as:
 
     'i'
     uint24( block_len )
